@@ -1,140 +1,126 @@
-# 📊 Personal Stock Portfolio Analyzer 
+# 📊 Personal Stock Portfolio Analyzer Pro
 
-A real-time portfolio tracking and investment analytics platform built using Python and Streamlit.  
-The application helps users monitor investments, analyze stock performance, and manage portfolios with live market data — all without requiring registration or paid subscriptions.
+A real-time stock portfolio analysis platform developed using Python and Streamlit that helps users track investments, monitor profit & loss, visualize stock performance, and export portfolio data efficiently.
 
----
-
-# 📖 Introduction
-
-Tracking stock investments manually can be time-consuming and inefficient, especially for beginner investors managing holdings across multiple platforms. Most professional portfolio tracking tools either require paid subscriptions or restrict users to their own brokerage ecosystem.
-
-This project was developed to provide a simple, free, and professional-grade stock portfolio analyzer capable of tracking investments in real time using live market data.
-
-The application allows users to:
-- Track portfolio performance
-- Analyze stock trends
-- Calculate profit/loss automatically
-- Export portfolio reports
-- Visualize investment distribution
+The application integrates live stock market data using the Yahoo Finance API and provides an interactive dashboard for portfolio management and analytics.
 
 ---
 
-# ❗ Problem Statement
+## 📌 Problem Statement
 
-Many investors struggle with:
-- Manual profit/loss calculations
-- Managing investments across multiple brokers
-- Lack of free portfolio analytics tools
-- Complex user interfaces in trading platforms
-- Limited export and reporting functionality
+Managing personal stock investments manually can be difficult, time-consuming, and error-prone. Many beginner investors lack access to simple tools that can track portfolio performance, analyze gains/losses, and visualize market trends in an easy-to-understand format.
 
-The goal of this project is to create a lightweight, user-friendly, and real-time investment tracking system accessible to everyone.
+Traditional spreadsheets often fail to provide:
+- Real-time stock updates
+- Interactive analytics
+- Visual portfolio insights
+- Export functionality
+- User-friendly dashboards
 
----
-
-# 🎯 Objectives
-
-- Build a free stock portfolio management platform
-- Integrate real-time stock market data
-- Automate investment calculations
-- Provide interactive analytics and visualizations
-- Enable export of portfolio reports
-- Create a scalable and responsive web application
+This project aims to solve these issues by providing an interactive and lightweight portfolio analysis system.
 
 ---
 
-# 🛠️ Technologies Used
+## 🔍 Research Gap
 
-| Technology | Purpose |
-|---|---|
-| Python 3.13 | Backend programming |
-| Streamlit | Web application framework |
-| Yahoo Finance API (yfinance) | Real-time stock data |
-| Pandas | Data processing |
-| NumPy | Numerical operations |
-| Matplotlib | Data visualization |
-| Plotly | Interactive charts |
-| GitHub | Version control |
-| Streamlit Cloud | Deployment |
+Most existing portfolio tracking platforms are either:
+- Too complex for beginners
+- Paid or subscription-based
+- Focused only on market data without personalized portfolio analytics
+- Lacking simple export and visualization features
 
----
-
-# ⚙️ Key Features
-
-## 📌 Dashboard
-- Total investment tracking
-- Current portfolio valuation
-- Profit/Loss calculations
-- Best performing stock identification
-
-## 📈 Analytics
-- Historical stock price analysis
-- Top gainers and losers
-- Interactive trend visualization
-- Performance comparison
-
-## ➕ Portfolio Management
-- Add Indian and US stocks
-- Live stock validation
-- Company information lookup
-- Session state management
-
-## 💾 Export Features
-- CSV export
-- JSON export
-- Portfolio preview
-- Record management
+There is a need for a lightweight, beginner-friendly, and interactive stock portfolio management system that combines:
+- Real-time data tracking
+- Portfolio analytics
+- Visualization
+- Export support
+- Easy-to-use interface
 
 ---
 
-# 📊 Workflow
+## 🎯 Objectives
 
-![Flowchart](assets/flowchart.png)
+- To develop a real-time stock portfolio analyzer
+- To track investment performance dynamically
+- To calculate profit and loss automatically
+- To visualize stock price history interactively
+- To provide portfolio analytics in a user-friendly dashboard
+- To allow users to export portfolio data in CSV and JSON formats
+- To build an interactive web-based interface using Streamlit
 
 ---
 
-# 📂 Project Structure
+## ✨ Key Features
+
+- 📈 Real-time stock tracking using Yahoo Finance API
+- 💹 Portfolio performance monitoring
+- 📊 Interactive historical price visualization
+- 🧮 Profit & Loss calculation system
+- 📂 Export portfolio data in CSV and JSON format
+- 🌙 Dark-themed responsive Streamlit interface
+- 🔍 Quick stock search and category filtering
+- 📉 Gain/Loss analysis dashboard
+- 🛠 Session-state based portfolio management
+
+---
+
+## 🛠 Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Language | Python 3.13 |
+| Frontend | Streamlit |
+| Data Processing | Pandas, NumPy |
+| Visualization | Plotly, Matplotlib |
+| API | Yahoo Finance API (yfinance) |
+| Deployment | Streamlit Cloud |
+| Version Control | Git & GitHub |
+
+---
+
+## 📂 Project Structure
 
 ```text
-Personal_Stock_Portfolio_Analyzer/
-│
-├── assets/
-│   ├── dashboard.png
-│   ├── analytics.png
-│   ├── flowchart.png
-│   └── export_feature.png
+Portfolio_Analyzer/
 │
 ├── app.py
-├── config.py
 ├── utils.py
+├── config.py
 ├── requirements.txt
-└── README.md
+├── README.md
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── add_stock.png
+│   ├── analytics.png
+│   └── export_data.png
+│
+└── assets/
+    └── architecture.png
 ```
 
 ---
 
-# ▶️ Installation & Setup
+## ⚙️ Installation & Setup
 
-## Clone Repository
+### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/smritiii12/Personal_Stock_Portfolio_Analyzer.git
+git clone https://github.com/smritiii12/Portfolio_Analyzer.git
+cd Portfolio_Analyzer
 ```
 
-## Install Dependencies
+### 2️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run Application
+### 3️⃣ Run Application
 
 ```bash
 streamlit run app.py
 ```
-
----
 
 ## 📸 Project Screenshots
 
@@ -155,23 +141,70 @@ streamlit run app.py
 )
 ---
 
-# 🚀 Future Enhancements
 
-- Multi-exchange support
-- AI-based stock prediction
-- Investment goal tracking
-- Portfolio risk analysis
+## 📈 Modules Implemented
+
+### 🏠 Dashboard
+- Portfolio overview
+- Total investment calculation
+- Current portfolio value
+- Profit & Loss tracking
+- Holdings table
+
+### ➕ Add Stock
+- Stock selection
+- Quick stock search
+- Quantity and buy price management
+- Live stock information retrieval
+
+### 📊 Analytics
+- Historical stock price analysis
+- Gain/Loss tracking
+- Performance comparison
+- Interactive visualization charts
+
+### 📂 Export Data
+- CSV export functionality
+- JSON export functionality
+- Portfolio data preview
+- Portfolio reset option
+
+---
+
+## 🔮 Future Enhancements
+
 - User authentication system
-- Mobile responsive optimization
+- Database integration
+- AI-based stock prediction
+- Portfolio risk analysis
+- Cloud deployment
+- Mobile responsive version
+- Multi-user support
+- Advanced financial analytics
 
 ---
 
-# 👩‍💻 Author
+## 📚 Learning Outcomes
 
-Smriti Kumari
+Through this project, the following concepts were explored and implemented:
+
+- Streamlit web application development
+- API integration using yfinance
+- Data visualization using Plotly and Matplotlib
+- Portfolio performance analytics
+- Python backend logic development
+- Real-time data handling
+- GitHub project management
 
 ---
 
-# 📜 License
+## 👩‍💻 Author
 
-This project is developed for educational and portfolio purposes.
+**Smriti Kumari**  
+B.Tech CSE (Data Science)  
+
+---
+
+## ⭐ Conclusion
+
+The Personal Stock Portfolio Analyzer Pro successfully demonstrates how Python and Streamlit can be used to create an interactive and real-time financial analytics platform. The project provides practical portfolio management features along with data visualization and export capabilities in a clean and user-friendly interface.s.
