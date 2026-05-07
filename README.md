@@ -136,17 +136,23 @@ streamlit run app.py
 
 ---
 
-# 📷 Application Screenshots
+## 📸 Project Screenshots
 
-## Dashboard
-(Add dashboard screenshot here)
+### Dashboard
+![Dashboard](<img width="1900" height="863" alt="Screenshot 2025-08-24 224413" src="https://github.com/user-attachments/assets/e84eb5cf-3953-4993-a4db-f28d5d5c0e23" />
+)
 
-## Analytics
-(Add analytics screenshot here)
+### Add Stock Interface
+![Add Stock](<img width="1577" height="837" alt="Screenshot 2025-08-24 224438" src="https://github.com/user-attachments/assets/be37e0ee-d767-41ac-8c59-38d089d6a21e" />
+)
 
-## Export Feature
-(Add export feature screenshot here)
+### Portfolio Analytics
+![Analytics](<img width="1851" height="971" alt="Screenshot 2025-08-24 224544" src="https://github.com/user-attachments/assets/ac284b8b-e306-4d62-9f13-dd6652c560d0" />
+)
 
+### Export Data Feature
+![Export](<img width="1885" height="894" alt="Screenshot 2025-08-24 224514" src="https://github.com/user-attachments/assets/33194195-1c8d-4aa1-9e81-e58d45387c96" />
+)
 ---
 
 # 🚀 Future Enhancements
