@@ -1,4 +1,4 @@
-# 📊 Personal Stock Portfolio Analyzer Pro
+# 📊 Personal Stock Portfolio Analyzer 
 
 A real-time stock portfolio analysis platform developed using Python and Streamlit that helps users track investments, monitor profit & loss, visualize stock performance, and export portfolio data efficiently.
 
